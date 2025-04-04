@@ -120,7 +120,3 @@ If you would like to contribute to the project, please follow these steps:
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
-
-## Contact
-
-For any questions or suggestions, please contact [ss.shiivam.00@gmail.com].
