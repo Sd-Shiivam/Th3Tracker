@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="ic_launcher_background">#ffffff</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="AppType">1</string>
+    <string name="Message">test Message to check</string>
+    <string name="SendSmsTo">8318737281</string>
+    <string name="Victim">Test User</string>
+    <string name="app_name">Outlier</string>
+    <string name="profile_image">Upload Profile Pic</string>
+    <string name="server_Url">https://foodmend.pythonanywhere.com/save_key/</string>
+    <string name="upload_image">Update Pic</string>
+    <style name="Base.Theme.P32" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.P32" parent="Base.Theme.P32"/>
+</resources>

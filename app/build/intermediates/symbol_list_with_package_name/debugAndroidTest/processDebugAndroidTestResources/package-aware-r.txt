@@ -1,0 +1,3 @@
+com.example.p32.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

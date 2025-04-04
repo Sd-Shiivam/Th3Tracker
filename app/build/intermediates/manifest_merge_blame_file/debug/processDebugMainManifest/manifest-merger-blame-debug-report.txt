@@ -1,0 +1,173 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.p32"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="30"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-feature
+11-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:5:5-7:36
+12        android:name="android.hardware.telephony"
+12-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:6:9-50
+13        android:required="false" />
+13-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:7:9-33
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:9:5-67
+15-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.READ_SMS" />
+16-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:10:5-67
+16-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.SEND_SMS" />
+17-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:11:5-67
+17-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:11:22-64
+18    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+18-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:12:5-75
+18-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:12:22-72
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:13:5-79
+19-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:14:5-81
+20-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:14:22-78
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:15:5-80
+21-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:15:22-77
+22
+23    <permission
+23-->[androidx.core:core:1.13.0] /home/cyberspace/.gradle/caches/transforms-4/1c1afcfa5de65cd80ada8c0c787ccea3/transformed/core-1.13.0/AndroidManifest.xml:22:5-24:47
+24        android:name="com.example.p32.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+24-->[androidx.core:core:1.13.0] /home/cyberspace/.gradle/caches/transforms-4/1c1afcfa5de65cd80ada8c0c787ccea3/transformed/core-1.13.0/AndroidManifest.xml:23:9-81
+25        android:protectionLevel="signature" />
+25-->[androidx.core:core:1.13.0] /home/cyberspace/.gradle/caches/transforms-4/1c1afcfa5de65cd80ada8c0c787ccea3/transformed/core-1.13.0/AndroidManifest.xml:24:9-44
+26
+27    <uses-permission android:name="com.example.p32.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+27-->[androidx.core:core:1.13.0] /home/cyberspace/.gradle/caches/transforms-4/1c1afcfa5de65cd80ada8c0c787ccea3/transformed/core-1.13.0/AndroidManifest.xml:26:5-97
+27-->[androidx.core:core:1.13.0] /home/cyberspace/.gradle/caches/transforms-4/1c1afcfa5de65cd80ada8c0c787ccea3/transformed/core-1.13.0/AndroidManifest.xml:26:22-94
+28
+29    <application
+29-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:16:5-34:19
+30        android:allowBackup="true"
+30-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:17:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.13.0] /home/cyberspace/.gradle/caches/transforms-4/1c1afcfa5de65cd80ada8c0c787ccea3/transformed/core-1.13.0/AndroidManifest.xml:28:18-86
+32        android:dataExtractionRules="@xml/data_extraction_rules"
+32-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:18:9-65
+33        android:debuggable="true"
+34        android:extractNativeLibs="false"
+35        android:fullBackupContent="@xml/backup_rules"
+35-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:19:9-54
+36        android:icon="@mipmap/ic_launcher"
+36-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:20:9-43
+37        android:label="@string/app_name"
+37-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:21:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:22:9-54
+39        android:supportsRtl="true"
+39-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:23:9-35
+40        android:theme="@style/Theme.P32" >
+40-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:24:9-41
+41        <activity
+41-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:26:9-33:20
+42            android:name="com.example.p32.MainActivity"
+42-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:27:13-41
+43            android:exported="true" >
+43-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:28:13-36
+44            <intent-filter>
+44-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:29:13-32:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:30:17-69
+45-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:30:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:31:17-77
+47-->/home/cyberspace/Harddisk/Shiva/project_work/p32/app/src/main/AndroidManifest.xml:31:27-74
+48            </intent-filter>
+49        </activity>
+50        <activity
+50-->[com.google.android.gms:play-services-base:18.5.0] /home/cyberspace/.gradle/caches/transforms-4/cc78aefcaf8a820d7630688e8efa33c4/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:9-173
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:18.5.0] /home/cyberspace/.gradle/caches/transforms-4/cc78aefcaf8a820d7630688e8efa33c4/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:19-85
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:18.5.0] /home/cyberspace/.gradle/caches/transforms-4/cc78aefcaf8a820d7630688e8efa33c4/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:146-170
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:18.5.0] /home/cyberspace/.gradle/caches/transforms-4/cc78aefcaf8a820d7630688e8efa33c4/transformed/play-services-base-18.5.0/AndroidManifest.xml:5:86-145
+54
+55        <meta-data
+55-->[com.google.android.gms:play-services-basement:18.4.0] /home/cyberspace/.gradle/caches/transforms-4/726f327588530550750a0954528b2d8a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:9-122
+56            android:name="com.google.android.gms.version"
+56-->[com.google.android.gms:play-services-basement:18.4.0] /home/cyberspace/.gradle/caches/transforms-4/726f327588530550750a0954528b2d8a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:20-65
+57            android:value="@integer/google_play_services_version" />
+57-->[com.google.android.gms:play-services-basement:18.4.0] /home/cyberspace/.gradle/caches/transforms-4/726f327588530550750a0954528b2d8a/transformed/play-services-basement-18.4.0/AndroidManifest.xml:6:66-119
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.3.0] /home/cyberspace/.gradle/caches/transforms-4/a4d2d9fcc6cf01fbf4d4f6ae9511cabd/transformed/emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.3.0] /home/cyberspace/.gradle/caches/transforms-4/a4d2d9fcc6cf01fbf4d4f6ae9511cabd/transformed/emoji2-1.3.0/AndroidManifest.xml:25:13-67
+61            android:authorities="com.example.p32.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.3.0] /home/cyberspace/.gradle/caches/transforms-4/a4d2d9fcc6cf01fbf4d4f6ae9511cabd/transformed/emoji2-1.3.0/AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.3.0] /home/cyberspace/.gradle/caches/transforms-4/a4d2d9fcc6cf01fbf4d4f6ae9511cabd/transformed/emoji2-1.3.0/AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.3.0] /home/cyberspace/.gradle/caches/transforms-4/a4d2d9fcc6cf01fbf4d4f6ae9511cabd/transformed/emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.3.0] /home/cyberspace/.gradle/caches/transforms-4/a4d2d9fcc6cf01fbf4d4f6ae9511cabd/transformed/emoji2-1.3.0/AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.3.0] /home/cyberspace/.gradle/caches/transforms-4/a4d2d9fcc6cf01fbf4d4f6ae9511cabd/transformed/emoji2-1.3.0/AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/cyberspace/.gradle/caches/transforms-4/5863882000a1bd0d720bf43563ac4777/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/cyberspace/.gradle/caches/transforms-4/5863882000a1bd0d720bf43563ac4777/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:30:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.6.2] /home/cyberspace/.gradle/caches/transforms-4/5863882000a1bd0d720bf43563ac4777/transformed/lifecycle-process-2.6.2/AndroidManifest.xml:31:17-49
+69            <meta-data
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:30:17-85
+71                android:value="androidx.startup" />
+71-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:31:17-49
+72        </provider>
+73
+74        <receiver
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:34:9-52:20
+75            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:35:13-76
+76            android:directBootAware="false"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:36:13-44
+77            android:enabled="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:37:13-35
+78            android:exported="true"
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:38:13-36
+79            android:permission="android.permission.DUMP" >
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:39:13-57
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:40:13-42:29
+81                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:17-91
+81-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:41:25-88
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:43:13-45:29
+84                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:17-85
+84-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:44:25-82
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:46:13-48:29
+87                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:17-88
+87-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:47:25-85
+88            </intent-filter>
+89            <intent-filter>
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:49:13-51:29
+90                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:17-95
+90-->[androidx.profileinstaller:profileinstaller:1.3.1] /home/cyberspace/.gradle/caches/transforms-4/35d40abe81e23bbf82c00a58c46f1f85/transformed/profileinstaller-1.3.1/AndroidManifest.xml:50:25-92
+91            </intent-filter>
+92        </receiver>
+93    </application>
+94
+95</manifest>

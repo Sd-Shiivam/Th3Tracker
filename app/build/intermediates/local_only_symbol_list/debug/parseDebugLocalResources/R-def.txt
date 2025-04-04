@@ -1,0 +1,27 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color ic_launcher_background
+color white
+drawable homeicon
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable touch_dummy_background
+id main
+id textView1
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_foreground
+mipmap ic_launcher_round
+string AppType
+string Message
+string SendSmsTo
+string Victim
+string app_name
+string profile_image
+string server_Url
+string upload_image
+style Base.Theme.P32
+style Theme.P32
+xml backup_rules
+xml data_extraction_rules

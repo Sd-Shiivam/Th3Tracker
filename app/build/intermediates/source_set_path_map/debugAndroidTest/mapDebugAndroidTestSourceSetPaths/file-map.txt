@@ -1,0 +1,5 @@
+com.example.p32.test.app-core-1.6.1-0 /home/cyberspace/.gradle/caches/transforms-4/42e38e5a196f8c952245bcd5f865eabb/transformed/core-1.6.1/res
+com.example.p32.test.app-androidTest-1 /home/cyberspace/Harddisk/Shiva/project_work/p32/app/build/generated/res/resValues/androidTest/debug
+com.example.p32.test.app-mergeDebugAndroidTestResources-2 /home/cyberspace/Harddisk/Shiva/project_work/p32/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/merged.dir
+com.example.p32.test.app-mergeDebugAndroidTestResources-3 /home/cyberspace/Harddisk/Shiva/project_work/p32/app/build/intermediates/incremental/debugAndroidTest/mergeDebugAndroidTestResources/stripped.dir
+com.example.p32.test.app-debugAndroidTest-4 /home/cyberspace/Harddisk/Shiva/project_work/p32/app/build/intermediates/merged_res/debugAndroidTest/mergeDebugAndroidTestResources
